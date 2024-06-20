@@ -20,6 +20,7 @@ class Mainpage extends StatelessWidget {
     var h = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      
         bottomNavigationBar: Material(
           elevation: 2,
           borderRadius: const BorderRadius.only(

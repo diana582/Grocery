@@ -41,7 +41,7 @@ class Explore extends StatelessWidget {
                   border: UnderlineInputBorder(
                       borderSide: BorderSide.none,
                       borderRadius: BorderRadius.all(Radius.circular(10))),
-                  fillColor: Color(0xffF2F3F2)),
+                  fillColor: Color.fromARGB(255, 208, 212, 208)),
             ),
           ),
           verticalspace(h * 0.03),
@@ -49,7 +49,7 @@ class Explore extends StatelessWidget {
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
               child: GridView.count(
-                childAspectRatio: 0.85,
+                childAspectRatio: 1,
                 mainAxisSpacing: h * 0.02,
                 crossAxisSpacing: w * 0.04,
                 shrinkWrap: true,
